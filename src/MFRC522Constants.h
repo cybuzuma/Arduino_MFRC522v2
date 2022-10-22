@@ -1,6 +1,10 @@
 /* SPDX-License-Identifier: LGPL-2.1 */
 #pragma once
 
+#include <stdint.h>
+
+#define byte uint8_t
+
 class MFRC522Constants {
 public:
   // MFRC522 registers. Described in chapter 9 of the datasheet.
